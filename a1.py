@@ -210,7 +210,7 @@ def time_from_utc(utc_offset, time):
     >>> time_from_utc(+1, 23.0)
     0.0
     '''
-    return to_24_hour_clock(time + (utc_offset))
+    return to_24_hour_clock(time + (utc_offset)) 
 
 
 
